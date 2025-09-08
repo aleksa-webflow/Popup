@@ -1,4 +1,3 @@
-<script>
 class PopupModal {
   /**
    * @param {string|Element} modalRoot - selector or DOM node of the modal container
@@ -156,4 +155,3 @@ class PopupModal {
     if (typeof this.opts.onClose === 'function') this.opts.onClose(this);
   }
 }
-</script>
