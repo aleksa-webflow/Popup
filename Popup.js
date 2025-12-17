@@ -155,3 +155,5 @@ class PopupModal {
     if (typeof this.opts.onClose === 'function') this.opts.onClose(this);
   }
 }
+
+window.PopupModal = PopupModal;
